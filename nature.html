@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NATURE</title>
+    <style type="text/css" >
+        *{padding: 0;margin: 0;box-sizing: border-box;}
+         header{
+            width: 100%;
+            height:100vh;
+            background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url("bb.png");
+            background-size:cover ;
+            font-family: sans-serif;
+         }
+         .logo{
+            font-size: 2em;
+            letter-spacing: 2px;
+
+         }
+         .menu a{
+            text-decoration: none;
+            color:black;
+            padding: 10px 20px;
+            font-size: 20px;
+            position:relative;
+
+
+         }
+         .menu a:before{
+            content: '';
+            position : absolute;
+            top:0;
+            left:0;
+            width: 100%;
+            height:100%;
+            background-color: solid indianred;
+            transition: 0.4s linear;
+
+
+         }
+         .menu a:hover:before{
+            width: 90%;
+
+         }
+         .register a{
+            text-decoration: none;
+            color:black;
+            padding: 10px 20px;
+            font-size: 20px;
+            background: indianred;
+            border-radius: 8px;
+            transition: 0.4s;
+
+
+         }
+         .register a:hover{
+            background: transparent;
+            border:1px solid indianred;
+
+         }
+         nav{
+            width:100%;
+            height: 100px;
+            
+            color:orangered;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+         }
+         .h-text{
+            max-width: 650px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            color: cyan;
+         }
+         .h-text span{
+            letter-spacing: 5px;
+
+
+         }
+         .h-text h1{
+            font: size 3.5em;
+         }
+         .h-text a{
+            text-decoration: none;
+            background: indianred;
+            color:gold;
+            padding: 10px 20px;
+            letter-spacing: 5px;
+
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                BIRYANI
+            </div>
+            <div class="menu">
+                <a href="#">MENU</a>
+                <a href="#">ORDER</a>
+                <a href="#">DELIVERY</a>
+                <a href="#">CONTACTS</a>
+                <a href="#">ABOUT US</a>
+            </div>
+            <div class="register">
+                <a href="#">REGISTER</a>
+
+
+            </div>
+            </div>
+        </nav>
+        <section class="h-text">
+            <span>ENJOY</span>
+            <h1>WORLD FAMOUS HYDERABADI BIRYANI!</h1>
+        </section>
+
+    </header>
+    
+</body>
+</html>
